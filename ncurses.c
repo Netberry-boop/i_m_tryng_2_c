@@ -14,7 +14,7 @@ int main()
 
     refresh(); // update the terminal with changes made to the window
 
-    letter = getch(); //ncurses way of taking input(keys, letters, numbers)
+    letter = getch(); // ncurses way of taking input(keys, letters, numbers)
 
     clear(); // clear the current window and marks it for redraw
 
@@ -23,9 +23,8 @@ int main()
     refresh(); // update the terminal with the changes made to the window
 
     getch(); // wait for a key press so that the output remains
-    
-    endwin(); // destroying the ncurses window 
 
-   return 0; 
+    endwin(); // destroying the ncurses window
 
+    return 0;
 }
