@@ -22,5 +22,5 @@ int main()
 
     refresh(); // update the terminal with the changes made to the window
 
-    getch(); // wait for a key press so that the output remains visible
+    getch(); // wait for a key press so that the output remains   
 }
