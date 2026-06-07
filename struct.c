@@ -10,6 +10,7 @@ typedef struct coordinate { // typedef is used here to define a type name/shorth
     int z;// int here is 4 bytes as the system is 64-bit , and the char array is standard 8 bytes 
      
 }coord_t; // this is the type name given to the struct, this name can now be used to declare the coordinate estruct type variable. 
+// the _t usage is encourage as it indicates a custom datatype .
 
 int main(){
     coord_t my_c = { // this way of assigning value is called designated initializers 
